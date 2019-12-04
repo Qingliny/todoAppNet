@@ -1,8 +1,7 @@
 {
-  "name": "todoAppNet",
+  "name": "todoappnet",
   "version": "1.0.0",
-  "description": "Small TOdoApp as the project of Network Virtulization Class",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,11 +9,15 @@
     "type": "git",
     "url": "git+https://github.com/Qingliny/todoAppNet.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Qinglin <qy2211@columbia.edu>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Qingliny/todoAppNet/issues"
   },
-  "homepage": "https://github.com/Qingliny/todoAppNet#readme"
+  "homepage": "https://github.com/Qingliny/todoAppNet#readme",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
 }
