@@ -9,6 +9,10 @@ h1 {
   color: #fff;
   padding: 10px;
 }
+h2 {
+  color: #fff;
+  padding: 5px;
+}
 
 .box {
   max-width: 600px;
@@ -21,6 +25,11 @@ h1 {
 #heading {
   background-color: #6495ED;
   text-align: center;
+}
+#heading-2 {
+  background-color: #6495ED;
+  text-align: center;
+  text-decoration: none;
 }
 
 .item {
@@ -69,6 +78,7 @@ button {
   font-size: 30px;
   padding-bottom: 6px;
   border-width: 0;
+  float: right;
 }
 
 input[type="text"] {
